@@ -1,0 +1,41 @@
+/* Estilos para la sección "SobreMi" */
+.SobreMi {
+    height: 100vh;
+    background-image: url('../img/Fondo Liverpool.jpg'); /* Imagen de fondo relacionada con Liverpool */
+    background-size: cover; /* Ajusta la imagen para que ocupe toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: 'Arial', sans-serif; 
+    padding: 20px;
+}
+.contenido-seccion {
+    display: flex;
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
+    margin: 20px 0; 
+    padding: 20px; 
+    border: 3px solid #ff002f; 
+}
+.contenido-seccion .imagen {
+    width: 100%; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border: 10px ridge rgb(46, 46, 46); 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    margin-right: 20px; /* Espacio entre la imagen y la información */
+}
+.contenido-seccion .info {
+    color: #ffffff;
+    width: 100%; /* Ajusta el tamaño de la sección de información */
+    height: auto;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.6; /* Espacio entre líneas */
+    font-family: 'Arial', sans-serif; /* Fuente sencilla y legible */
+    margin-left: 40px;
+}

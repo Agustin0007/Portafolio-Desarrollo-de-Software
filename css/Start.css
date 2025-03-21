@@ -2,51 +2,54 @@
 #Inicio {
     position: relative;
     height: 100vh;
-    color: white;
+    color: rgb(255, 0, 0);
     display: flex;
     align-items: center;
-    background: linear-gradient(45deg, #c8ff0060, #00ff155d, #00eeff59, #00e1ff60, #0400ff5e, #cc00ff69, #ff00776b, #ff000065);
-    background-size: 400% 400%;
-    animation: gradient 10s linear infinite;
+    background-image: url('../img/Fondo Liverpool.jpg'); /* Imagen de fondo relacionada con Liverpool */
+    background-size: cover; /* Ajusta la imagen para que ocupe toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
 }
-
-/* Animación del gradiente */
-@keyframes gradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
 /* Estilos para el contenido del banner */
 .contenido-banner {
     padding: 20px;
     max-width: 1000px;  
-    text-align: left; /* Asegura que el contenido esté alineado a la izquierda */
+    text-align: left; 
     font-family: monospace;
     overflow: hidden; /* Oculta el texto que aún no ha sido "escrito" */
-    border-right: .15em solid white; /* Cursor de la máquina de escribir */
-    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-    margin: 0 auto; /* Centra el texto */
-    letter-spacing: .15em; /* Espaciado entre letras */
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    letter-spacing: 15px; /* Espaciado entre letras */
 }
-
 /* Estilos para el título principal */
 .contenido-banner h1 {
     font-size: 60px;
     text-transform: uppercase;
-    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-    margin-bottom: 10px; /* Espacio debajo del título principal */
-}
-/* Estilos para el subtítulo */
-.contenido-banner h2 {
-    font-size: 30px;
-    font-weight: normal;
-    text-transform: uppercase;
-    margin-top: 20px; /* Espacio encima del subtítulo */
 }
 /* Animación de escritura */
 @keyframes typing {
     from { width: 0; }
     to { width: 100%; }
+}
+/* Animación para Alexis */
+#alexis {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0; /* Oculta el texto inicialmente */
+    animation: typing 1.50s steps(20, end) forwards, blink-caret .50s step-end infinite;
+}
+/* Animación para Mac */
+#mac {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0; /* Oculta el texto inicialmente */
+    animation: typing 1.50s steps(20, end) 1.75s forwards, blink-caret .50s step-end infinite;
+}
+/* Animación para Allister */
+#allister {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0; /* Oculta el texto inicialmente */
+    animation: typing 1.50s steps(20, end) 2.75s forwards, blink-caret .50s step-end infinite;
 }

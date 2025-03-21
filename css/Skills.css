@@ -1,0 +1,45 @@
+body {
+    margin: 0; /* Elimina el margen por defecto del body */
+}
+.Skills {
+    height: auto;
+    width: auto;
+    background-image: url('../img/Fondo Liverpool.jpg'); /* Imagen de fondo relacionada con Liverpool */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    padding-top: 100px; 
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea tres columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las columnas y filas */
+    color: #ffffff; 
+    width: 100%; 
+}
+.skill {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+h2.contenido-seccion {
+    grid-column: span 3; /* Hace que el título ocupe las tres columnas */
+    margin: 0; 
+    padding: 10px 0; 
+}
+.progress-bar {
+    width: 100%; 
+    background-color: #808080;
+}
+.progress {
+    height: 20px;
+    background-color: #ff0000;
+}
+.progress span {
+    margin-left: 3px; /* Espacio entre la barra y el porcentaje */
+    color: #000000; /* Color del texto */
+    font-weight: bold; /* Negrita para el texto */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    
+}
