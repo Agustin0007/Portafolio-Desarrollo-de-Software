@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Portafolios" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dr. James Wilson</title>
+    <link rel="icon" href="img/Logo pagina.png" type="image/png">
+
+    <link rel="stylesheet" href="css/Navigation menu.css">
+
+</head>
+<body>
+    <!--SECCION NAVIGATION MENU-->
+    <section class="contenedor-header">
+        <header>
+            <nav id="nav" class="resposive">
+                <ul>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="About me.html">Sobre Mi</a></li>
+                    <li><a href="Skills.html">Habilidades</a></li>
+                    <li><a href="Portafolio.html">Portafolio</a></li>
+                    <li><a href="Contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+    <!--SECCION CONTACT-->
+    <section id="Contacto" class="Contacto">
+        <div class="contenido-seccion">
+            <h2 class="center-texto">Contacto</h3>
+                <form class="formulario">
+                    <div class="campo">
+                        <label class="campo__label" for="Nombre">Nombre</label><!--MUESTRA LO QUE DEBES INGRESAR--><!--EL FOR EN EL LABEL SIRVE PARA HACER CLICK Y TE DEJE INGRESAR TUS DATOS-->
+                        <input 
+                            class="campo__field"
+                            type="text" 
+                            id="Nombre"
+                            placeholder="Tu Nombre" ><!--TE DA UN EJEMPLO DENTRO DEL FORMULARIO DE QUE INGRESAR-->
+                    </div>
+                    <div class="campo">
+                        <label class="campo__label" for="email">E-mail</label><!--MUESTRA LO QUE DEBES INGRESAR--><!--EL FOR EN EL LABEL SIRVE PARA HACER CLICK Y TE DEJE INGRESAR TUS DATOS-->
+                        <input 
+                            class="campo__field"
+                            type="text" 
+                            placeholder="Tu E-mial" 
+                            id="email"
+                        >
+                    </div>
+                    <div class="campo">
+                        <label class="campo__label" for="mensaje">Mensaje</label><!--MUESTRA LO QUE DEBES INGRESAR--><!--EL FOR EN EL LABEL SIRVE PARA HACER CLICK Y TE DEJE INGRESAR TUS DATOS-->
+                        <textarea  class="campo__field campo__field--textarea" id="mensaje"></textarea>
+                    </div>
+                    <div class="campo">
+                        <input type="submit" value="Enviar" class="boton boton__primario"><!--ESRA FUNCION ME AYUDA PARA DECLARAR EL BOTON-->
+                    </div>
+                </form><!--ESTA FUNCION ME DEFINE UN FORMULARIO-->
+        </div>
+    </section>
+</body>
+</html>
