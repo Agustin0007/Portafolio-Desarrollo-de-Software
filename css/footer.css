@@ -1,0 +1,42 @@
+/*FOOTER*/
+footer {
+    background-color: rgb(0,0,0);
+    color: #fff;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer .redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .redes a {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #535353;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+footer .redes a:hover {
+    transform: scale(1.1);
+    background-color: rgb(253, 0, 0);
+    color: #000;
+    border-color: rgb(255, 0, 0);
+    box-shadow: 0 0 10px rgb(255, 0, 0); /* Añade una sombra brillante */
+}
+
+footer .redes a svg {
+    display: block;
+    width: 80%; /* Ocupa el 80% del círculo */
+    height: 80%; /* Ocupa el 80% del círculo */
+}

@@ -2,15 +2,13 @@
 #Inicio {
     position: relative;
     height: 100vh;
-    color: rgb(255, 0, 0);
     display: flex;
     align-items: center;
-    background-image: url('../img/Fondo Liverpool.jpg'); /* Imagen de fondo relacionada con Liverpool */
-    background-size: cover; /* Ajusta la imagen para que ocupe toda la pantalla */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-position: center; /* Centra la imagen */
+    background-image: url('../img/Fondo Liverpool.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
 }
-/* Estilos para el contenido del banner */
 .contenido-banner {
     padding: 20px;
     max-width: 1000px;  
@@ -23,13 +21,18 @@
 .contenido-banner h1 {
     font-size: 60px;
     text-transform: uppercase;
+    color: rgb(255, 0, 0);
 }
 /* Animación de escritura */
 @keyframes typing {
     from { width: 0; }
     to { width: 100%; }
 }
-/* Animación para Alexis */
+.contenido-banner h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
 #alexis {
     display: inline-block;
     overflow: hidden;
@@ -37,7 +40,6 @@
     width: 0; /* Oculta el texto inicialmente */
     animation: typing 1.50s steps(20, end) forwards, blink-caret .50s step-end infinite;
 }
-/* Animación para Mac */
 #mac {
     display: inline-block;
     overflow: hidden;
@@ -45,11 +47,24 @@
     width: 0; /* Oculta el texto inicialmente */
     animation: typing 1.50s steps(20, end) 1.75s forwards, blink-caret .50s step-end infinite;
 }
-/* Animación para Allister */
 #allister {
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
     width: 0; /* Oculta el texto inicialmente */
     animation: typing 1.50s steps(20, end) 2.75s forwards, blink-caret .50s step-end infinite;
+}
+#Futbolista {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0; /* Oculta el texto inicialmente */
+    animation: typing 1.50s steps(20, end) 4s forwards, blink-caret .50s step-end infinite;
+}
+#Profesional {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0; /* Oculta el texto inicialmente */
+    animation: typing 1.50s steps(20, end) 4.50s forwards, blink-caret .50s step-end infinite;
 }

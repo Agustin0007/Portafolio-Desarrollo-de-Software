@@ -37,7 +37,7 @@ h2.contenido-seccion {
 }
 .progress {
     height: 20px;
-    background: linear-gradient(90deg, #ff9100, #ff0000);
+    background: linear-gradient(90deg, #ff5e00, #ff0000);
     border-radius: 10px;
     transition: 0.3s ease;
 }
@@ -47,3 +47,4 @@ h2.contenido-seccion {
     font-weight: bold; /* Negrita para el texto */
     white-space: nowrap; /* Evita que el texto se divida en varias líneas */
 }
+
