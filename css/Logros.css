@@ -1,0 +1,40 @@
+.Portafolio{
+    height: auto;
+    background-image: url(../img/Fondo\ Liverpool.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+.contenido-seccion{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.contenido-seccion img{
+    width: 90%;
+    height: auto;
+    border: 7px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    margin: 10px;
+    filter: blur(2px); /* Aplica un desenfoque */
+}
+.contenido-seccion h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.contenido-seccion .finalissima {
+    grid-column: 3;
+    grid-row: 2;
+}
+.contenido-seccion img:hover{
+    transform: scale(1.05); 
+    filter: none;
+    transition: transform 0.3s ease, filter 0.3s ease; 
+    border: 7px solid rgba(255, 255, 255, 0.8); 
+}

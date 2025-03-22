@@ -13,13 +13,20 @@
 }
 .contenido-seccion {
     display: flex;
-    width: 100%; 
-    background-color: rgba(0, 0, 0, 0.7); 
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
-    margin: 20px 0; 
-    padding: 20px; 
-    border: 3px solid #ff002f; 
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+    padding: 20px;
+    border: 3px solid #ff002f;
+    transition: transform 0.3s ease;
+}
+.contenido-seccion:hover {
+    transform: scale(1.03);
+}
+.contenido-seccion:hover {
+    box-shadow: 0 8px 16px rgba(255, 0, 47, 0.5);
 }
 .contenido-seccion .imagen {
     width: 100%; /* Ajusta el tamaño de la imagen */
