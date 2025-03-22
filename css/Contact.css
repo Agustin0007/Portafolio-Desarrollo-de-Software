@@ -24,7 +24,7 @@
     transition: box-shadow 0.3s ease;
 }
 .formulario:hover {
-    box-shadow: 0 8px 16px rgb(255, 0, 0);
+    box-shadow: 0 0 30px rgb(255, 0, 0);
 }
 .formulario .center-texto{
     text-align: center;
@@ -57,7 +57,7 @@
     font-weight: bold;
 }
 .boton_primario {
-    background-color: #ff0000; 
+    background-color: #a10000; 
     color: white; 
     font-size: 15px;
     margin-left: 110px;
@@ -68,7 +68,7 @@
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 .boton_primario:hover {
-    background-color: #000000; /* Cambia el color al pasar sobre el botón */
+    background-color: #ff0000; /* Cambia el color al pasar sobre el botón */
     transform: scale(1.2); /* Aumenta el tamaño al pasar sobre el botón */
-    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.5); /* Aumenta la sombra al pasar sobre el botón */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Aumenta la sombra al pasar sobre el botón */
 }

@@ -37,9 +37,12 @@ h2.contenido-seccion {
 }
 .progress {
     height: 20px;
-    background: linear-gradient(90deg, #ff5e00, #ff0000);
+    background-color: rgb(161, 0, 0);
     border-radius: 10px;
-    transition: 0.3s ease;
+    transition: 0.2s ease;
+}
+.progress:hover{
+    background-color: red;
 }
 .progress span {
     margin-left: 3px; /* Espacio entre la barra y el porcentaje */
