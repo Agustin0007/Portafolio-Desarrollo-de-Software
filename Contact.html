@@ -32,7 +32,8 @@
     <!--SECCION CONTACT-->
     <section id="Contacto" class="Contacto">
         <div class="contenido-seccion">
-                <form action="https://formspree.io/f/mgvakavd" method="POST" class="formulario">
+                <form action="https://api.web3forms.com/submit" method="POST" class="formulario">
+                    <input type="hidden" name="access_key" value="34e1a5d3-f8c5-46b5-93eb-25f81e96c8e0">
                     <h2 class="center-texto">Contacto</h2>
                     <div class="campo">
                         <label class="campo_label" for="Nombre">Nombre</label><!--MUESTRA LO QUE DEBES INGRESAR--><!--EL FOR EN EL LABEL SIRVE PARA HACER CLICK Y TE DEJE INGRESAR TUS DATOS-->
@@ -64,6 +65,9 @@
                     <div class="campo">
                         <input type="submit" value="Enviar" class="boton_primario"><!--ESRA FUNCION ME AYUDA PARA DECLARAR EL BOTON-->
                     </div>
+
+                    <input type="hidden" name="apikey" value="34e1a5d3-f8c5-46b5-93eb-25f81e96c8e0">
+
                 </form><!--ESTA FUNCION ME DEFINE UN FORMULARIO-->
         </div>
     </section>
