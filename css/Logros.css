@@ -54,3 +54,21 @@
         font-size: 20px; /* Ajuste de tamaño de fuente para pantallas pequeñas */
     }
 }
+/* Media query para pantallas de hasta 772px */
+@media (max-width: 772px) {
+    .contenido-seccion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenido-seccion div {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .contenido-seccion img {
+        width: 100%;
+        height: auto;
+    }
+}
