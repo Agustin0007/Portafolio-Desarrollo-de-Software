@@ -54,8 +54,8 @@
         font-size: 20px; /* Ajuste de tamaño de fuente para pantallas pequeñas */
     }
 }
-/* Media query para pantallas de hasta 772px */
-@media (max-width: 772px) {
+/* Media query para pantallas de hasta 1024px (iPad) */
+@media (max-width: 1024px) {
     .contenido-seccion {
         display: flex;
         flex-direction: column;
@@ -63,12 +63,58 @@
     }
 
     .contenido-seccion div {
-        width: 90%;
+        width: 100%; /* Asegura que los divs ocupen el ancho completo */
         margin-bottom: 15px;
     }
 
     .contenido-seccion img {
-        width: 100%;
-        height: auto;
+        width: 100%; /* Asegura que las imágenes ocupen el ancho completo */
+        height: auto; /* Mantiene la proporción de las imágenes */
+    }
+
+    .contenido-seccion h2 {
+        font-size: 22px; /* Ajuste de tamaño de fuente para pantallas medianas */
+    }
+}
+
+/* Media query para pantallas de hasta 768px (celulares) */
+@media (max-width: 768px) {
+    .contenido-seccion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenido-seccion div {
+        width: 100%; /* Asegura que los divs ocupen el ancho completo */
+        margin-bottom: 15px;
+    }
+
+    .contenido-seccion img {
+        width: 100%; /* Asegura que las imágenes ocupen el ancho completo */
+        height: auto; /* Mantiene la proporción de las imágenes */
+    }
+
+    .contenido-seccion h2 {
+        font-size: 20px; /* Ajuste de tamaño de fuente para pantallas pequeñas */
+    }
+}
+
+/* Media query para pantallas de hasta 480px (celulares más pequeños) */
+@media (max-width: 480px) {
+    .contenido-seccion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenido-seccion div {
+        width: 100%; /* Asegura que los divs ocupen el ancho completo */
+        margin-bottom: 15px;
+    }
+
+    .contenido-seccion img {
+        width: 100%; /* Asegura que las imágenes ocupen el ancho completo */
+        height: auto; /* Mantiene la proporción de las imágenes */
     }
 }
