@@ -1,4 +1,51 @@
 /*FOOTER*/
+/*FOOTER*/
+footer {
+    background-color: var(--footer-bg) !important;
+    color: var(--nav-text) !important;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer .redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .redes a {
+    color: var(--nav-text) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--secondary-bg) !important;
+    border: 2px solid var(--nav-text) !important;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+footer .redes a:hover {
+    transform: scale(1.1);
+    background-color: var(--accent-color) !important;
+    color: var(--nav-text) !important;
+    border-color: var(--accent-color) !important;
+    box-shadow: 0 0 10px var(--accent-color);
+}
+
+footer .redes a svg {
+    display: block;
+    width: 80%;
+    height: 80%;
+    fill: var(--nav-text) !important;
+}
+
+footer .redes a:hover svg {
+    fill: var(--nav-text) !important;
+}
 footer {
     background-color: rgb(0,0,0);
     color: #fff;
