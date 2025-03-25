@@ -39,6 +39,8 @@
     right: 40px;   /* Increased distance from right edge */
     padding: 15px; /* Slightly larger button */
     border-radius: 50%;
+    width: 80px;
+    height: 80px;
     border: none;
     background: var(--secondary-bg);
     color: var(--text-color);
@@ -50,6 +52,6 @@
 
 .theme-toggle:hover {
     transform: scale(1.1);
-    background: var(--accent-color);
-    box-shadow: 0 0 15px var(--accent-color);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px rgba(63, 63, 63);
 }
