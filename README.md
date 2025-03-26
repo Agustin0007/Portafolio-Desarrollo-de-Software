@@ -40,4 +40,4 @@ Este proyecto cumple con los siguientes requisitos:
 
 El proyecto está desplegado en un hosting estático y se puede acceder desde la siguiente URL:
 
-[Enlace al portfolio]: https://liverpool-alexismacallister.netlify.app/
+[Enlace al portfolio](https://liverpool-alexismacallister.netlify.app/)
